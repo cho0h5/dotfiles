@@ -1,0 +1,13 @@
+[
+  {
+    "context": "Editor && VimControl",
+    "bindings": {
+      "shift-h": "pane::ActivatePrevItem",
+      "shift-l": "pane::ActivateNextItem",
+      "ctrl-h": "workspace::ActivatePreviousPane",
+      "ctrl-l": "workspace::ActivateNextPane"
+      // "ctrl-j": "workspace::ActivatePane",
+      // "ctrl-k": "workspace::ActivatePaneInDirection"
+    }
+  }
+]
